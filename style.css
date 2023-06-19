@@ -137,6 +137,7 @@ button:hover{
     color: var(--orangered-);
     text-decoration: underline;
 }
+/*
 .anime{
     overflow: hidden;
     position: absolute;
@@ -148,13 +149,14 @@ button:hover{
     transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
     animation: anime 16s infinite alternate;
 }
+
 .anime:hover{
     filter: blur(30px);
     width: 560px;
     height: 560px;
     
     box-shadow: inset 100px 100px var(--blue-), inset 200px 200px var(--yellow-), inset 300px 300px var(--red-)
-}
+} */
 @keyframes anime{
     5%{
         transform: translate(250px,80px) rotate(60deg);
