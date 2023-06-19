@@ -137,15 +137,15 @@ button:hover{
     color: var(--orangered-);
     text-decoration: underline;
 }
-/*
+
 .anime{
     overflow: hidden;
     position: absolute;
     height: 500px;
     width: 500px;
-    background: linear-gradient(360deg, var(--bh-rose-) 10%, var(--bh-orang-) 100%);
+    background: linear-gradient(60deg, var(--bh-rose-) 10%, var(--bh-orang-) 100%);
     border-radius: 30% 70% 61% 39% / 30% 30% 70% 70% ;
-    transform: translate(250px,80px) rotate(60deg);
+    transform: translate(50px,40px) rotate(60deg);
     transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
     animation: anime 16s infinite alternate;
 }
@@ -156,17 +156,17 @@ button:hover{
     height: 560px;
     
     box-shadow: inset 100px 100px var(--blue-), inset 200px 200px var(--yellow-), inset 300px 300px var(--red-)
-} */
+} 
 @keyframes anime{
     5%{
-        transform: translate(250px,80px) rotate(60deg);
+        transform: translate(10px,20px) rotate(60deg);
     }
     40%{
         transform: translate(-60%,-50%) rotate(30deg);
         border-radius: 30% 70% 27% 73% / 30% 30% 70% 70% ;
     }
     75%{
-        transform: translate(0%,-100%) rotate(120deg);
+        transform: translate(0%,-100%) rotate(0deg);
         border-radius: 65% 35% 0% 100% / 63% 63% 37% 37% ;
     }
 }
