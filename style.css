@@ -9,7 +9,6 @@
     padding: 0;
 }
 body{
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +138,7 @@ button:hover{
     text-decoration: underline;
 }
 .anime{
+    overflow: hidden;
     position: absolute;
     height: 500px;
     width: 500px;
